@@ -22,6 +22,7 @@
 ### DevOps SDLC
 - DevOps aims to improve SDLC - Agile
 - DevOps Lifecycle
+
 ![](images/devops-loop.png)
 - Stages
   - Continuous Development
