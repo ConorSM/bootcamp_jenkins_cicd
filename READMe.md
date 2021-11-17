@@ -55,7 +55,7 @@ npm install
 npm test
 npm start
 ```
-- Testing webhook in bootcamp
+- Test for jenkins
 
 
 # Let's build a Continuous Integration and Continuous Delivery/Deployment (CICD) Pipeline
