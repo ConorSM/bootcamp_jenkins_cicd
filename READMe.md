@@ -19,9 +19,20 @@
 - Long deployment window
 - High cost
 
+### DevOps SDLC
+- DevOps aims to improve SDLC - Agile
+- DevOps Lifecycle
+![](images/devops-loop.png)
+- Stages
+  - Continuous Development
+  - Continuous Testing
+  - Continuous Integration
+  - Continuous Delivery/Deployment
+  - Continuous Monitoring
+
 ## CI/CD
 - Continuous Integration
-  - Integrating all the developers code into a central repository
+  - Integrating all the developers working copies into a shared mainline serveral times a day
 - Continous Delivery
   - Teams produce softwawre in short cycles
   - Ensure that software can be manually deployed at any time
