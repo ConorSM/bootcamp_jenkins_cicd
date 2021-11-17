@@ -61,6 +61,22 @@ npm start
 # Let's build a Continuous Integration and Continuous Delivery/Deployment (CICD) Pipeline
 ## Jenkins
 ### Webhooks with Git-hub
+- Github settings
+  - Go to settings of repo and select webhooks
+  - enter jenkins url with "/github-webhook/" at the end
+- Jenkins settings
+  - New job
+  - https github url in the "project url"
+  - check "Git" in the source code management
+    - ssh github url in "Repository url"
+    - add ssh key for credentials
+  - check "provide Node and npm in "Build Environment"
+  - add execute shell build step
+    ```
+    cd app
+    npm install
+    npm test
+    ```
 #### Automated Testing using Jenkins
 #### Automated Deployment on AWS EC2 for 2Tier architecture - Nodejs app and Mongodb  
 
