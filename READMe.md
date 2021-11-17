@@ -47,6 +47,17 @@
 ## Webhook Trigger
 - Listens for pushes and commits to github from localhost
 
+## aaa
+- Commands
+```
+cd app
+npm install
+npm test
+npm start
+```
+- Testing webhook in bootcamp
+
+
 # Let's build a Continuous Integration and Continuous Delivery/Deployment (CICD) Pipeline
 ## Jenkins
 ### Webhooks with Git-hub
