@@ -61,6 +61,7 @@ npm start
 # Let's build a Continuous Integration and Continuous Delivery/Deployment (CICD) Pipeline
 ## Jenkins
 ### Webhooks with Git-hub
+[Steps on how to integrate github](https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project/)
 - Github settings
   - Go to settings of repo and select webhooks
   - enter jenkins url with "/github-webhook/" at the end
