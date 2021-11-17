@@ -24,6 +24,7 @@
 - DevOps Lifecycle
 
 ![](images/devops-loop.png)
+
 - Stages
   - Continuous Development
   - Continuous Testing
@@ -42,6 +43,9 @@
 
 ## Jenkins
 - Open-source automation server used to bulid CICD pipeline
+
+## Webhook Trigger
+- Listens for pushes and commits to github from localhost
 
 # Let's build a Continuous Integration and Continuous Delivery/Deployment (CICD) Pipeline
 ## Jenkins
