@@ -1,3 +1,21 @@
+# DevOps and CICD
+
+## DevOps
+- Combine Dev and Ops teams
+- Set of practices to build, test, and release software faster
+
+## CI/CD
+- Continuous Integration
+  - Integrating all the developers code into a central repository
+- Continous Delivery
+  - Teams produce softwawre in short cycles
+  - Ensure that software can be manually deployed at any time
+- Continous Deployment
+  - The deployment is automated
+
+## Jenkins
+- Open-source automation server used to bulid CICD pipeline
+
 # Let's build a Continuous Integration and Continuous Delivery/Deployment (CICD) Pipeline
 ## Jenkins
 ### Webhooks with Git-hub
@@ -58,21 +76,5 @@ EOF
 --- 
 Tigger deployment job if the merge was successfull
 
-# DevOps and CICD
 
-## DevOps
-- Combine Dev and Ops teams
-- Set of practices to build, test, and release software faster
-
-## CI/CD
-- Continuous Integration
-  - Integrating all the developers code into a central repository
-- Continous Delivery
-  - Teams produce softwawre in short cycles
-  - Ensure that software can be manually deployed at any time
-- Continous Deployment
-  - The deployment is automated
-
-## Jenkins
-- Open-source automation server used to bulid CICD pipeline
 
