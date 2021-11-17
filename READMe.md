@@ -55,7 +55,7 @@ npm install
 npm test
 npm start
 ```
-- Test for jenkins
+- Test12
 
 
 # Let's build a Continuous Integration and Continuous Delivery/Deployment (CICD) Pipeline
