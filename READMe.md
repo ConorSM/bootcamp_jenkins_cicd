@@ -4,6 +4,21 @@
 - Combine Dev and Ops teams
 - Set of practices to build, test, and release software faster
 
+## SDLC
+- Plan/Design
+- Develop
+- Test
+- Deploy
+
+### Problems with traditional SDLC
+- Scale and complexity
+- Manual and slow
+- Broken communication
+- Human errors
+- Large volume of testing
+- Long deployment window
+- High cost
+
 ## CI/CD
 - Continuous Integration
   - Integrating all the developers code into a central repository
