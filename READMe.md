@@ -136,7 +136,7 @@ npm start
       ssh -A -o "StrictHostKeyChecking=no" ubuntu@ec2IP << EOF
       ```
     - The commands to run app
-- Jenkins Workflow test
+- Jenkins Workflow test test
   
 ![](images/jenkins.png)
 
