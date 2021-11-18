@@ -78,16 +78,64 @@ npm start
     npm install
     npm test
     ```
-#### Automated Testing using Jenkins
+#### Automated Testing using Jenkins (CI job)
+- Add description
+- Discard old build - keep max number of 3 builds
+- Check GitHub project and add https link
+- Source code management
+  - add github ssh link
+  - add github ssh private key for that repository
+  - Branches to build - add "*/master"
+- Build triggers
+  - check GitHub hook trigger for GITScm polling box
+- Build Environment
+  - check the provide Node & npm box
+  - keep settings as default
+- Build
+  - choose execute shell
+  ```
+  cd app
+  npm install
+  npm test
+  ```
+- Post-build actions
+  - add merge job to build other pojects when complete
+
+### Merge job using Jenkins
+- Add description
+- Discard old builds after 3 max builds
+- add https link for github project
+- Source code management
+  - add github ssh link
+  - use github ssh private key for that repository
+  - add "*/dev" to the branches to build
+  - For additional behaviours choose merge before build
+    - name of repository - origin
+    - branch to merge to - master or main
+    - The rest default 
+- Post bulid actions
+  - Choose git publisher
+  - check merge results
+  - for Branches
+    - Branch to push - master or main
+    - Target remote name - origin
 #### Automated Deployment on AWS EC2 for 2Tier architecture - Nodejs app and Mongodb  
-- Steps
+- AWS Steps
   - Launch ec2 instance 18.04 LTS
   - SG to allow port 22 from your IP, port 3000 and http 80
-  - use the pemfile.pem for the ec2 instance
-  - Provide the pemfile to jenkins in order to ssh into ec2 instance
-  - select the project url for the repo write script in the exeecute shell
-
-
+- Jenkins Steps
+  - Add description
+  - discard old builds after 3
+  - add github https
+  - Source code management same as before
+  - Build environment
+    - add ssh agent for aws (the private key used to ssh into ec2)
+  - Build - execute shell
+    - To ssh from jenkins
+      ```
+      ssh -A -o "StrictHostKeyChecking=no" ubuntu@ec2IP << EOF
+      ```
+    - The commands to run app
 - Jenkins Workflow test
   
 ![](images/jenkins.png)
