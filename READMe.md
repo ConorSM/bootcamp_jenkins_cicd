@@ -80,9 +80,15 @@ npm start
     ```
 #### Automated Testing using Jenkins
 #### Automated Deployment on AWS EC2 for 2Tier architecture - Nodejs app and Mongodb  
+- Steps
+  - Launch ec2 instance 18.04 LTS
+  - SG to allow port 22 from your IP, port 3000 and http 80
+  - use the pemfile.pem for the ec2 instance
+  - Provide the pemfile to jenkins in order to ssh into ec2 instance
+  - select the project url for the repo write script in the exeecute shell
 
 
-- Jenkins Workflow
+- Jenkins Workflow test
   
 ![](images/jenkins.png)
 
