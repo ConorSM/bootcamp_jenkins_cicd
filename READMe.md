@@ -88,7 +88,7 @@ npm start
   - select the project url for the repo write script in the exeecute shell
 
 
-- Jenkins Workflow test
+- Jenkins Workflow test test
   
 ![](images/jenkins.png)
 
