@@ -78,7 +78,7 @@ npm start
     npm install
     npm test
     ```
-#### Automated Testing using Jenkins (CI job)
+### Automated Testing using Jenkins (CI job)
 - Add description
 - Discard old build - keep max number of 3 builds
 - Check GitHub project and add https link
@@ -119,7 +119,7 @@ npm start
   - for Branches
     - Branch to push - master or main
     - Target remote name - origin
-#### Automated Deployment on AWS EC2 for 2Tier architecture - Nodejs app and Mongodb  
+### Automated Deployment on AWS EC2 for 2Tier architecture - Nodejs app and Mongodb  
 - AWS Steps
   - Launch ec2 instance 18.04 LTS
   - SG to allow port 22 from your IP, port 3000 and http 80
