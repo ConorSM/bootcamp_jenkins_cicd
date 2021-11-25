@@ -60,6 +60,13 @@ npm start
 
 # Let's build a Continuous Integration and Continuous Delivery/Deployment (CICD) Pipeline
 ## Jenkins
+
+### Add SSH Key for Specific Github Repository
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+- Add public key to repository settings 
+
 ### Webhooks with Git-hub
 [Steps on how to integrate github](https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project/)
 - Github settings
