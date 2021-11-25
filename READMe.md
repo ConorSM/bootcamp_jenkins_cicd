@@ -63,7 +63,7 @@ npm start
 
 ### Add SSH Key for Specific Github Repository
 ```
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 - Add public key to repository settings 
 
